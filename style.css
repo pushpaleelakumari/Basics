@@ -1,0 +1,99 @@
+
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    gap: 20px;
+    margin: 10px;
+}
+.one{
+    grid-column: 1/4;
+    grid-row: 1/1;
+    background-color: red;
+    width: 100%;
+    height: 50px;
+    margin-right: 5px;
+}
+.two{
+    grid-column: 1/2;
+    grid-row: 2/2;
+    background-color: green;
+    height: 600px;
+    margin-bottom: 30px;
+}
+.three{
+    grid-column: 2/4;
+    background-color: blue;
+    margin-bottom: 30px;
+}
+
+
+.assignment2{
+    height: 100vh;
+}
+.div-one{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    background-color: rgb(237, 10, 6);
+    border-radius: 5px;
+}
+.ones{
+    display: flex;
+}
+.twos{
+    display: flex;
+}
+.threes{
+    display: flex;
+}
+.fours{
+    display: flex;
+}
+.images{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+
+.assignment3{
+    background-color: rgb(104, 81, 81);
+    color: white;
+    text-align: center;
+}
+.image-one img{
+    height: 400px;
+    width: 200px;
+    margin-bottom: 5px;
+}
+.whole-content{
+    padding: 5px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+
+.assignment4{
+    text-align: center;
+    font-family: sans-serif;
+}
+.tech{
+    font-size: 25px;
+    font-weight: 500;
+}
+.image-two img{
+    display: flex;
+    height: 300px;
+    width: 400px;
+}
+.main-contents{
+    color: rgb(77, 73, 73);
+}
+
